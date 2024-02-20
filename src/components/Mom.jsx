@@ -8,7 +8,7 @@ export function Mom(props) {
   const { ref, actions } = useAnimations(animations);
 
   useEffect(() => {
-    void actions["Armature|mixamo.com|Layer0"].reset().play();
+    void actions["Armature|mixamo.com|Layer0"].reset().stop();
   }, );
 
   useFrame((state, delta) => {

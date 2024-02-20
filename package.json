@@ -12,6 +12,9 @@
   "dependencies": {
     "@react-three/drei": "^9.96.5",
     "@react-three/fiber": "^8.15.15",
+    "@theatre/core": "^0.7.0",
+    "@theatre/r3f": "^0.7.0",
+    "@theatre/studio": "^0.7.0",
     "@types/three": "^0.160.0",
     "lamina": "^1.1.23",
     "react": "^18.2.0",
